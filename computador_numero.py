@@ -20,7 +20,7 @@ def advinhar_numero ():
             break
         elif feedback == 'maior':
             inicio = palpite + 1
-        elif feedback == 'menor':
+        else:
             fim = palpite -1
 
 advinhar_numero ()
