@@ -20,8 +20,10 @@ def advinhar_numero ():
             break
         elif feedback == 'maior':
             inicio = palpite + 1
-        else:
+        elif feedback == 'menor':
             fim = palpite -1
+        else:
+            print ('Não entendi, digite o feedback novamente.')
 
 advinhar_numero ()
         
